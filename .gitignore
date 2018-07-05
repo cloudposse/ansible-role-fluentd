@@ -4,3 +4,6 @@
 .bundle/
 vendor/
 Gemfile.lock
+
+.build-harness
+build-harness
