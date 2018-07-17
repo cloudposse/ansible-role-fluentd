@@ -13,6 +13,12 @@ name: ansible-fluentd
 # License of this project
 license: "ISC"
 
+# Copyrights
+copyrights:
+  - name: "Tomoyuki Sakurai"
+    url: "https://github.com/mitsururike"
+    year: "2016"
+
 # Canonical GitHub repo
 github_repo: cloudposse/ansible-fluentd
 
@@ -57,7 +63,7 @@ description: |-
   for more details.
 
   Note that `fluentd_plugins_to_install`  does not use `fluentd_plugin_dir`.
-
+usage: |-
   # Requirements
 
   None
@@ -283,3 +289,8 @@ examples: |-
               @type null
             </match>
   ```
+
+references:
+- name: "ansible-role-fluentd"
+  description: "Configures fluentd"
+  url: "https://github.com/reallyenglish/ansible-role-fluentd"
